@@ -13,6 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Picture" />
+    <TextView 
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"/>
     
     <ImageView 
         android:id="@+id/image"
